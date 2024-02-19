@@ -1,0 +1,32 @@
+.btnContainer {
+  display: grid;
+  gap: 8px;
+  grid-auto-flow: row;
+  justify-content: center;
+}
+
+.btn {
+  min-width: 270px;
+  border: none;
+  border-radius: 10px;
+  padding: 24px;
+  color: var(--color-bg);
+  background-color: var(--color-secondary200);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn.disabled {
+  background-color: var(--color-secondary-disabled);
+}
+
+.tip {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.tip span {
+  font-weight: 700;
+}

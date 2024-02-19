@@ -1,0 +1,7 @@
+@media (max-height: 760px) {
+  .questionContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+  }
+}

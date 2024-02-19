@@ -1,0 +1,11 @@
+.content {
+  position: relative;
+  display: grid;
+  text-align: center;
+  gap: 32px;
+  padding: 32px;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: var(--color-primary200);
+  background-color: var(--color-bg);
+}

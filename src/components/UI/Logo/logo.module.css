@@ -1,0 +1,13 @@
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoContainer span {
+  position: relative;
+  top: -2px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  color: var(--color-bg);
+}

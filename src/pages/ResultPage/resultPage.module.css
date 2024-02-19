@@ -1,0 +1,49 @@
+.resultContent {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+  color: var(--color-primary200);
+}
+
+.img {
+  display: inline-block;
+  width: 196px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.textContent {
+  max-width: 526px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.correct,
+.wrong {
+  font-weight: 700;
+}
+
+.correct {
+  color: var(--color-green);
+}
+
+.wrong {
+  color: var(--color-orange);
+}
+
+@media (max-height: 670px) {
+  .resultContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+  }
+}
